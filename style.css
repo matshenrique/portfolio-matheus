@@ -14,6 +14,8 @@ body {
     line-height: 1.6;
 }
 
+
+
 header {
     position: fixed;
     top: 0;
@@ -22,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #141414fb;
+    background: #141414e8;
     color: #fff;
     padding: 20px;
     box-shadow: 1px 1px 15px 6px rgba(0, 238, 255, 0.199);
@@ -140,6 +142,25 @@ section {
     box-shadow: 0 4px 10px rgba(247, 247, 247, 0.466);
     transition: transform 0.4s;
     cursor: pointer;
+}
+
+.btn-github {
+    padding: 15px 25px;
+    background-color: #00f7ff;
+    text-decoration: none;
+    border-radius: 16px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-github:hover {
+    background-color: #00cdd9;
+    transform: scale(1.05);
 }
 
 #projetos img {
